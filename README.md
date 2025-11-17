@@ -1,73 +1,71 @@
-# Welcome to your Lovable project
+# TravelWise
 
-## Project info
+A beautifully designed travel discovery web app where users can explore their next adventure — find destinations, view travel tips, and get inspired to make memories.
 
-**URL**: https://lovable.dev/projects/71064894-8aea-42dc-ae18-e39bd2492ef0
+## 🚀 Features
+- Browse popular travel destinations with engaging visuals and descriptions  
+- Get curated travel tips and suggestions for your next trip  
+- Fully responsive design — works seamlessly on mobile and desktop  
+- Smooth navigation and user-friendly interface  
 
-## How can I edit this code?
+## 📂 Folder Structure
+travelwise/
+├── public/
+│ ├── index.html
+│ └── assets/
+├── src/
+│ ├── components/
+│ ├── pages/
+│ ├── styles/
+│ └── App.jsx
+├── README.md
+└── package.json
 
-There are several ways of editing your application.
+bash
+Copy code
 
-**Use Lovable**
+## 🔧 Installation
+```bash
+git clone https://github.com/yourusername/travelwise.git
+cd travelwise
+npm install
+▶️ Usage
+bash
+Copy code
+npm start
+Application local server pe chal jaayegi (default: http://localhost:3000).
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/71064894-8aea-42dc-ae18-e39bd2492ef0) and start prompting.
+🎨 Tech Stack
+Frontend: React.js
 
-Changes made via Lovable will be committed automatically to this repo.
+Styling: (e.g., CSS Modules / Styled-Components / Tailwind CSS)
 
-**Use your preferred IDE**
+Hosting: Netlify
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Other Libraries: (e.g., React Router for routing, Axios/Fetch for API calls)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+📸 Live Demo
+Live version available at: https://scintillating-raindrop-d0dd8e.netlify.app/
 
-Follow these steps:
+🛠 Screenshots
+(Add relevant screenshots of the UI here to give viewers a visual idea)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+🧩 Future Enhancements
+Add user authentication (sign-in / sign-up)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Let users save favorite destinations and create wish lists
 
-# Step 3: Install the necessary dependencies.
-npm i
+Integrate external travel APIs for up-to-date travel news and deals
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Add filters (price, duration, destination type) for better user choice
 
-**Edit a file directly in GitHub**
+🤝 Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you’d like to change.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+📄 License
+This project is licensed under the MIT License.
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/71064894-8aea-42dc-ae18-e39bd2492ef0) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+👤 Author
+Abhishek
+GitHub: https://github.com/CodeBy-Abhishek
+LinkedIn: https://www.linkedin.com/in/abhishek-yadav-6210b7267/
